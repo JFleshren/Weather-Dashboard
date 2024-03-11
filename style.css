@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; /* Adjust spacing between children */
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#search-bar {
+    margin-bottom: 10px;
+}
+
+#search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+}
+
+#search-bar button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #2ecc71;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#search-bar button:hover {
+    background-color: #27ae60;
+}
+
+/* Container for search history */
+#search-history-container {
+    display: inline-block;
+    width: 200px; /* Set fixed width */
+    vertical-align: top;
+}
+
+#search-history {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+#search-history button {
+    margin-bottom: 5px; /* Add margin between buttons */
+}
+
+#current-weather,
+#forecast {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: calc(100% - 200px); /* Subtracting the width of the search history */
+}
+
+.forecast-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px; /* Add margin between forecast items */
+}
+
+#forecast {
+    background-color: #3498db; /* Change background color */
+}
+
+@media (max-width: 768px) {
+    #search-bar input[type="text"] {
+        width: 100%;
+    }
+}
