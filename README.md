@@ -31,11 +31,11 @@ MIT License
 
 ## Screenshots
 
-![Screenshot (42).png](Screenshot/Screenshot (42).png)
+![Screenshot/Screenshot (42).png](Screenshot/Screenshot (42).png)
 
-![Screenshot (43).png](Screenshot/Screenshot (43).png)
+![Screenshot/Screenshot (43).png](Screenshot/Screenshot (43).png)
 
-![Screenshot (44).png](Screenshot/Screenshot (44).png)
+![Screenshot/Screenshot (44).png](Screenshot/Screenshot (44).png)
 
 
 
