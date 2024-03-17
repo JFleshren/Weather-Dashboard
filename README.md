@@ -27,15 +27,15 @@ MIT License
 
 ## Deployed Application
 
-(https://jfleshren.github.io/Weather-Dashboard/)
+https://jfleshren.github.io/Weather-Dashboard/
 
 ## Screenshots
 
-![Screenshot/Screenshot (42).png](Screenshot/Screenshot (42).png)
+![Screenshot/Screenshot (42).png](https://github.com/JFleshren/Weather-Dashboard/blob/main/Screenshot/Screenshot%20(42).png)
 
-![Screenshot/Screenshot (43).png](Screenshot/Screenshot (43).png)
+![Screenshot/Screenshot (43).png](https://github.com/JFleshren/Weather-Dashboard/blob/main/Screenshot/Screenshot%20(43).png)
 
-![Screenshot/Screenshot (44).png](Screenshot/Screenshot (44).png)
+![Screenshot/Screenshot (44).png](https://github.com/JFleshren/Weather-Dashboard/blob/main/Screenshot/Screenshot%20(43).png)
 
 
 
