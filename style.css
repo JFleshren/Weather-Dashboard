@@ -52,9 +52,9 @@ header {
 
 /* Container for search history */
 #search-history-container {
-    display: inline-block;
-    width: 200px; /* Set fixed width */
-    vertical-align: top;
+    width: 100%; /* Stretch the search history container */
+    display: flex; /* Ensure it stretches horizontally */
+    justify-content: center; /* Center its contents horizontally */
 }
 
 #search-history {
@@ -62,7 +62,7 @@ header {
     color: #fff;
     padding: 10px;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: row; 
 }
 
 #search-history button {
@@ -75,7 +75,12 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: calc(100% - 200px); /* Subtracting the width of the search history */
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-around; /* Space out items */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Stretch horizontally */
+    margin-left: auto; /* Push to the right */
 }
 
 .forecast-item {

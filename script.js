@@ -121,6 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     function displaySearchHistory() {
+      searchHistoryContainer.innerHTML = "";
       // Display search history as clickable buttons
       searchHistory.forEach(city => {
         const button = document.createElement("button");
